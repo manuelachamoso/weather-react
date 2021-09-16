@@ -2,6 +2,7 @@
   "name": "weather-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -11,6 +12,11 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+
+  "resolutions": { 
+    "@babel/preset-env": "7.5.5" 
+  },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
